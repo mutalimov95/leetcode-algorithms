@@ -1,15 +1,8 @@
 package threeSum
 
 import (
-	"fmt"
 	"sort"
 )
-
-func main() {
-	input := []int{-1, 0, 1, 2, -1, -4}
-	//output := [][]int{{-1, -1, 2}, {-1, 0, 1}}
-	fmt.Println(threeSum(input))
-}
 
 func threeSum(nums []int) [][]int {
 	res := make([][]int, 0)
